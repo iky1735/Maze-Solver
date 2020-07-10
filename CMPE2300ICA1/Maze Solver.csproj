@@ -51,6 +51,7 @@
   <ItemGroup>
     <Reference Include="GDIDrawer">
       <HintPath>.\GDIDrawer.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -84,6 +85,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -111,6 +113,26 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="mazes\maze_39x99_A.bmp" />
+    <None Include="mazes\maze_40x30_A.bmp" />
+    <None Include="mazes\maze_40x30_B.bmp" />
+    <None Include="mazes\maze_40x30_C.bmp" />
+    <None Include="mazes\maze_40x30_D_14steps.bmp" />
+    <None Include="mazes\maze_40x30_NoWin.bmp" />
+    <None Include="mazes\maze_79x59_A.bmp" />
+    <None Include="mazes\maze_79x59_B.bmp" />
+    <None Include="mazes\maze_79x59_C.bmp" />
+    <None Include="mazes\maze_99x99_A.bmp" />
+    <None Include="mazes\maze_99x99_B.bmp" />
+    <None Include="mazes\maze_159x119_A.bmp" />
+    <None Include="mazes\maze_159x119_B.bmp" />
+    <None Include="mazes\maze_159x119_C.bmp" />
+    <None Include="mazes\maze_189x49_A.bmp" />
+    <None Include="mazes\maze_400x300_A.bmp" />
+    <None Include="mazes\maze_400x300_B.bmp" />
+    <None Include="mazes\maze_400x300_C.bmp" />
+    <None Include="mazes\maze_800x500_A.bmp" />
+    <None Include="mazes\maze_800x500_B.bmp" />
     <Content Include="Properties\GDIDrawer.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

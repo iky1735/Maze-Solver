@@ -2,7 +2,6 @@ D:\User\Documents\GitHub\Maze-Solver\CMPE2300ICA1\bin\Debug\CMPE2300ICA1.exe.con
 D:\User\Documents\GitHub\Maze-Solver\CMPE2300ICA1\bin\Debug\CMPE2300ICA1.exe
 D:\User\Documents\GitHub\Maze-Solver\CMPE2300ICA1\bin\Debug\CMPE2300ICA1.pdb
 D:\User\Documents\GitHub\Maze-Solver\CMPE2300ICA1\bin\Debug\GDIDrawer.dll
-D:\User\Documents\GitHub\Maze-Solver\CMPE2300ICA1\obj\Debug\Maze Solver.csprojAssemblyReference.cache
 D:\User\Documents\GitHub\Maze-Solver\CMPE2300ICA1\obj\Debug\CMPE2300ICA1.Form1.resources
 D:\User\Documents\GitHub\Maze-Solver\CMPE2300ICA1\obj\Debug\CMPE2300ICA1.Properties.Resources.resources
 D:\User\Documents\GitHub\Maze-Solver\CMPE2300ICA1\obj\Debug\Maze Solver.csproj.GenerateResource.cache

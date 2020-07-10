@@ -7,10 +7,10 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using System.IO;
-using GDIDrawer;
 using System.Threading;
 using System.Diagnostics;
+using GDIDrawer;
+using System.IO;
 
 namespace CMPE2300ICA1
 {
@@ -23,6 +23,11 @@ namespace CMPE2300ICA1
         bool _cancel = false;   //flag used to break out of the recursive method
         int _throttle;          //user set value to manipulate solving time
         int _scale = 10;        //scale which will change depending on the size of the bitmap
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
 
         //will be used to determine and update the maze information while solving
         struct MazeInfo
@@ -43,11 +48,6 @@ namespace CMPE2300ICA1
             open,   //live path (White)
             wall,   //wall (Black)
             visited //visited path (Gray)
-        }
-
-        public Form1()
-        {
-            InitializeComponent();
         }
 
         //Occurs everytime the 'Load' button is pressed. Attempts to open a bitmap file onto the canvas
